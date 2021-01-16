@@ -1,0 +1,45 @@
+#GIt learn:
+#umodified->staged (add -A)->commit
+#install GIt
+#config GIt
+    -git config --global user.name "ashishparasar007"
+    -git config --global user.email "ashishparasar007@outlook.com"
+#To initialize a emotyt repo
+    -go to local work folder and use command
+    -git init
+    -ls -lart(to see hidden filesss)
+    -git add -A or git add --all or git add fileneme.ext
+    -git commit -m "commit messsage"
+    -git push -u origin "branchname"
+    -git checkout -f or git checkout filename.ext(revert changes to file to last commit)
+    -git log(show logs of commit and changes)
+    -git log -p -1(no of commit): show changes donr till last commits
+    -git diff (compare working file to staging file)
+    -git diff --staged(compare stage file to last commit)
+    -git add -a -m "message"(add and commit together)
+    -git rm --cached filename.ext (remove file from stage area means if you commit now than this file wont be commited)
+    -git rm filename.ext(remove file)
+    -git status -s(short status)
+    -git branch "branchname" (create a branch)
+    -git branch (branch list)
+    -git checkout "branchname" swith to branch 
+    -git checkout -b "branchname" (create and switch to branch if not available)
+    -git merge branchname(to merger to master)
+#gitignore - to ignore filess
+    -add .gitignore from gitbash and just enter the names of file to ignore this will ignore these files from all project
+    -add / infront of file name to ignore file only from root directory
+    -add *.log to ignore all file with .log extension
+    add / at end to ignore directory
+#Now code push
+    -add remote repository
+    -git remote add origin repository_link
+    -git remote(check remote repo)
+    -git remote -v
+    -git push origin master
+#add ssh key
+    - ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+    -eval `ssh-agent -s`
+    -ssh-add ~/.ssh/id_rsa
+    -cat ~/.ssh/id_rsa.pub
+    -copy start from ssh and paste
+    
