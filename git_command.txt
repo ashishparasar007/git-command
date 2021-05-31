@@ -36,6 +36,15 @@
     -git remote(check remote repo)
     -git remote -v
     -git push origin master
+    
+    -git pull master
+ 
+    -git stash
+    -git pull  master
+    -git stash apply
+    
+    -git restore file
+    -git restore --staged file
 #add ssh key
     - ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
     -eval `ssh-agent -s`
